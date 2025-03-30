@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio - Kontak Saya</title>
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="beranda.html">Portfolio</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="beranda.html">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="prestasi.html">Prestasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="jumbotron">
+            <div class="container">
+                <h1 class="custom-display-4">KONTAK SAYA</h1>
+                <p class="custom-lead">Mari terhubung dan berdiskusi</p>
+            </div>
+        </header>
+
+        <!-- Contact Section -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Info -->
+                    <div class="col-lg-5 mb-4">
+                        <div class="contact-info">
+                            <h2>Informasi Kontak</h2>
+                            <p>
+                                Silakan hubungi saya melalui salah satu cara di bawah ini. Saya akan
+                                merespon secepat mungkin.
+                            </p>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h3>Email</h3>
+                                    <p>mubtaghiridho@outlook.com</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h3>Lokasi</h3>
+                                    <p>Bogor, Jawa Barat, Indonesia</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                </div>
+                                <div class="contact-detail">
+                                    <h3>Pendidikan</h3>
+                                    <p>Mahasiswa Sistem Informasi</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-social">
+                                <h3>Media Sosial</h3>
+                                <div class="social-links">
+                                    <a href="#" class="social-link">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                    <a href="#" class="social-link">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#" class="social-link">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="col-lg-7">
+                        <div class="contact-form">
+                            <h2>Kirim Pesan</h2>
+                            <form id="contactForm">
+                                <div class="form-group">
+                                    <label for="name">Nama</label>
+                                    <input type="text" id="name" class="form-control" required />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" class="form-control" required />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="subject">Subjek</label>
+                                    <input type="text" id="subject" class="form-control" required />
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Pesan</label>
+                                    <textarea
+                                        id="message"
+                                        class="form-control"
+                                        rows="5"
+                                        required
+                                    ></textarea>
+                                </div>
+
+                                <button
+                                    type="submit"
+                                    class="button button-primary"
+                                    onclick="tampilkanPesan()"
+                                >
+                                    Kirim Pesan
+                                </button>
+
+                                <button type="button" id="kembaliBtn" class="button button-outline">
+                                    Kembali ke Beranda
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="social-icons">
+                    <a href="https://github.com/reado06" target="_blank"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/mubtaghi-ridho-808827359" target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <a href="https://www.instagram.com/mubtaghiridho/" target="_blank"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a href="mailto:mubtaghiridho@outlook.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>&copy; Portfolio Ridho</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
