@@ -29,7 +29,7 @@ Website ini dibangun menggunakan:
 ## 📝 Pembelajaran
 Selama mengembangkan website portfolio ini, saya belajar:
 
-Mendesain interface website yang responsif
-Menerapkan CSS modern untuk styling yang menarik
-Menggunakan komponen Bootstrap untuk mempercepat pengembangan
-Menerapkan best practices dalam struktur HTML dan CSS
+-Mendesain interface website yang responsif
+-Menerapkan CSS modern untuk styling yang menarik
+-Menggunakan komponen Bootstrap untuk mempercepat pengembangan
+-Menerapkan best practices dalam struktur HTML dan CSS
