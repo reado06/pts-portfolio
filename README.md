@@ -26,4 +26,10 @@ Website ini dibangun menggunakan:
 - **Halaman Prestasi**: Timeline pencapaian dan tujuan masa depan
 - **Halaman Kontak**: Form untuk menghubungi dan informasi kontak
 
-## 🔍 Struktur Folder
+## 📝 Pembelajaran
+Selama mengembangkan website portfolio ini, saya belajar:
+
+Mendesain interface website yang responsif
+Menerapkan CSS modern untuk styling yang menarik
+Menggunakan komponen Bootstrap untuk mempercepat pengembangan
+Menerapkan best practices dalam struktur HTML dan CSS
