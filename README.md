@@ -3,7 +3,7 @@ NPM    :2310631250065
 
 # Portfolio Website
 
-!Portfolio Preview (https://imgur.com/a/zmb6z7P)
+Portfolio Preview: https://imgur.com/a/zmb6z7P
 
 ## 🌟 Deskripsi
 
